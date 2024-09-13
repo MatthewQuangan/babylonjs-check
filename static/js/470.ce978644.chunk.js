@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbabylonjs_check=self.webpackChunkbabylonjs_check||[]).push([[470],{470:(e,r,t)=>{t.r(r),t.d(r,{passPixelShaderWGSL:()=>s});const a="passPixelShader",n="varying vUV: vec2f;var textureSamplerSampler: sampler;var textureSampler: texture_2d<f32>;\n#define CUSTOM_FRAGMENT_DEFINITIONS\n@fragment\nfn main(input: FragmentInputs)->FragmentOutputs {fragmentOutputs.color=textureSample(textureSampler,textureSamplerSampler,input.vUV);}";t(4453).l.ShadersStoreWGSL[a]=n;const s={name:a,shader:n}}}]);
+//# sourceMappingURL=470.ce978644.chunk.js.map
